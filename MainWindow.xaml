@@ -1,0 +1,27 @@
+﻿<Window x:Class="u2_j1_QuadrantsStuff_Sebastian.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:u2_j1_QuadrantsStuff_Sebastian"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="ButtonTest" 
+                Click="ButtonTest_Click"
+                Height="24"
+                />
+        <TextBox x:Name="txtbxTest"
+                 Text="TextBox"
+                 TextWrapping="Wrap"
+                 AcceptsReturn="True"
+                 Height="100"
+                 VerticalAlignment="Bottom"
+                 />
+        <Label x:Name="lblTest"
+               Height="25"
+               Content="LabelTest"
+               VerticalAlignment="Top"
+               />
+    </Grid>
+</Window>
